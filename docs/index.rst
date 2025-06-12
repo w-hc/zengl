@@ -489,6 +489,14 @@ Image
     | An OpenGL Texture Object returned by glGenTextures.
     | The default value is 0.
 
+.. py:method:: Image.face(layer, level)
+
+**layer**
+    | the layer of texture array
+
+**level**
+    | the level of mipmaps
+
 .. py:method:: Image.blit(target, offset, size, crop, filter)
 
 **target**
